@@ -1,0 +1,24 @@
+{
+	"facebook": {
+		"appId": "872131984412321",
+		"appSecret": "abc4123cab413fde33316881239ffabc"
+	},
+
+	"mail": {
+		"sender": "EpsilonApi <support@epsilon-api.com>",
+		"receiverInTest": "support@developer.dk",
+		"receiverInProduction": "support@epsilon-api.com",
+		"username": "support@epsilon-api.com",
+		"password": "some-password"
+	},
+
+	"payment": {
+		"version": "v10",
+		"apiKey": "Oaskd9s8721894371askldjpasOKaskjeasiJAKsjaskljdoi12389asdASDasdpok123salkdj21oiadg12312",
+		"cutPercentage": 0.10
+	},
+
+	"notification": {
+		"pfx": "resources/production.p12"
+	}
+}

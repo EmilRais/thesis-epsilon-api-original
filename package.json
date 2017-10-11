@@ -1,0 +1,33 @@
+{
+  "name": "epsilon-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "source/app.js",
+  "scripts": {
+    "start": "nodemon",
+    "test": "node_modules/mocha/bin/mocha test && node_modules/mocha/bin/mocha test/integration"
+  },
+  "private": true,
+  "license": "UNLICENSED",
+  "dependencies": {
+    "accounting": "^0.4.1",
+    "apn": "^1.7.6",
+    "async": "^2.0.1",
+    "body-parser": "^1.14.2",
+    "email-validator": "^1.0.4",
+    "express": "^4.13.4",
+    "geodist": "^0.2.1",
+    "glass-validator": "1.0.4",
+    "moment": "^2.13.0",
+    "mongodb": "^2.1.20",
+    "node-cron": "^1.1.2",
+    "nodemailer": "^2.4.2",
+    "randomstring": "^1.1.5"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5",
+    "superagent": "^2.0.0-alpha.3",
+    "tingodb": "^0.4.2"
+  }
+}
